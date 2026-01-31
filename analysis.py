@@ -11,7 +11,7 @@ import glob
 # -----------------------------
 # Load and combine all seasons
 # -----------------------------
-files = glob.glob("salary_cap_team_success_*.csv")
+files = glob.glob("data/salary_cap_team_success_*.csv")
 
 df_list = []
 for file in files:
